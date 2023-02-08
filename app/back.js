@@ -1,7 +1,7 @@
 // Imagens
 const pegaImagemNoGit = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/"
 const pegaImagemNoGitShiny = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/"
-const pegaTipoNoGit = "img/tipos/"
+const pegaTipoNoGit = "../img/tipos/"
 
 // Dia da semana
 const dia = new Date();
