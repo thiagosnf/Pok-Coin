@@ -1,0 +1,148 @@
+.tipo-bug {
+    background-color: #92bc2c;
+}
+
+.tipo-dark {
+    background-color: #595761;
+}
+
+.tipo-dragon {
+    background-color: #0c69c8;
+}
+
+.tipo-electric {
+    background-color: #f2d94e;
+}
+
+.tipo-fairy {
+    background-color: #ee90e6;
+}
+
+.tipo-fighting {
+    background-color: #d3425f;
+}
+
+.tipo-fire {
+    background-color: #fba54c;
+}
+
+.tipo-flying {
+    background-color: #a1bbec;
+}
+
+.tipo-ghost {
+    background-color: #5f6dbc;
+}
+
+.tipo-grass {
+    background-color: #5fbd58;
+}
+
+.tipo-ground {
+    background-color: #da7c4d;
+}
+
+.tipo-ice {
+    background-color: #75d0c1;
+}
+
+.tipo-normal {
+    background-color: #a0a29f;
+}
+
+.tipo-poison {
+    background-color: #b763cf;
+}
+
+.tipo-psychic {
+    background-color: #fa8581;
+}
+
+.tipo-rock {
+    background-color: #c9bb8a;
+}
+
+.tipo-steel {
+    background-color: #5695a3;
+}
+
+.tipo-water {
+    background-color: #539ddf;
+}
+
+/* Ao passar o mouse */
+.tipo-bug, .tipo-dark, .tipo-dragon, .tipo-electric, .tipo-fairy, .tipo-fighting, .tipo-fire, .tipo-flying, .tipo-ghost, .tipo-grass, .tipo-ground, .tipo-ice, .tipo-normal, .tipo-poison, .tipo-psychic, .tipo-rock, .tipo-steel, .tipo-water {
+    transition: .5s;
+}
+
+.tipo-bug:hover {
+    background-color: #80bc25;
+}
+
+.tipo-dark:hover {
+    background-color: #716e7a;
+}
+
+.tipo-dragon:hover {
+    background-color: #006cc9;
+}
+
+.tipo-electric:hover {
+    background-color: #fad94e;
+}
+
+.tipo-fairy:hover {
+    background-color: #ff94e7;
+}
+
+.tipo-fighting:hover {
+    background-color: #f14262;
+}
+
+.tipo-fire:hover {
+    background-color: #ffb566;
+}
+
+.tipo-flying:hover {
+    background-color: #98bdec;
+}
+
+.tipo-ghost:hover {
+    background-color: #5970be;
+}
+
+.tipo-grass:hover {
+    background-color: #00bd55;
+}
+
+.tipo-ground:hover {
+    background-color: #f27d4f;
+}
+
+.tipo-ice:hover {
+    background-color: #23d1c2;
+}
+
+.tipo-normal:hover {
+    background-color: #a1a3a0;
+}
+
+.tipo-poison:hover {
+    background-color: #cd67d1;
+}
+
+.tipo-psychic:hover {
+    background-color: #ff8785;
+}
+
+.tipo-rock:hover {
+    background-color: #cfbc8c;
+}
+
+.tipo-steel:hover {
+    background-color: #2296a4;
+}
+
+.tipo-water:hover {
+    background-color: #009fe0;
+}

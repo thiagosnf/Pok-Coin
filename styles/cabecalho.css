@@ -1,0 +1,128 @@
+.cabecalho {
+    background: var(--vermelho-degrade);
+    height: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    filter: drop-shadow(0 0 .5rem rgba(0, 0, 0, .8));
+    width: 5rem;
+    padding: 1rem;
+}
+
+.menu {
+    display: flex;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.menu_item {
+    color: var(--branco);
+    margin: .5rem;
+    text-decoration: none;
+}
+
+.menu_item:hover {
+    color: var(--laranja);
+    filter: drop-shadow(0 0 .5rem rgba(0, 0, 0, 0.4));
+}
+
+.menu_item_selecionado {
+    color: var(--amarelo);
+    margin: 1rem;
+    filter: drop-shadow(0 0 .5rem rgba(0, 0, 0, 0.4));
+    text-decoration: none;
+    margin: .5rem;
+}
+
+.menu_item_selecionado:hover {
+    color: var(--laranja);
+    filter: drop-shadow(0 0 .5rem rgba(0, 0, 0, 0.4));
+}
+
+.muda_tema {
+    border: 2px solid var(--bordaModoLight);
+    border-radius: 50px;
+    margin-right: 1rem;
+}
+
+/* botão de mudar o tema */
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.label {
+    background-color: var(--branco);
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    position: relative;
+    height: .9rem;
+    width: 3rem;
+}
+
+.label .circulo {
+    background-color: var(--branco);
+    border-radius: 50%;
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    transform: translate(30px);
+}
+
+.checkbox:checked+.label .circulo {
+    transform: translateX(-2px);
+}
+
+.sun {
+    height: 1rem;
+}
+
+.moon {
+    height: 1rem;
+}
+
+/* Fim do botão de mudar o tema */
+
+/* Modo noturno */
+.dark .cabecalho {
+    background: var(--azul-degrade);
+}
+
+.dark .muda_tema {
+    border: 2px solid var(--bordaModoDark);
+    border-radius: 50px;
+}
+
+.dark .label .circulo {
+    background-color: var(--preto);
+
+}
+
+.dark .label {
+    background-color: var(--preto);
+}
+
+@media screen and (min-width: 1024px) {
+    .logo {
+        width: 12rem;
+    }
+
+    .menu {
+        display: flex;
+        font-family: var(--fonte-principal);
+        font-weight: bold;
+        font-size: 1.2rem;
+        justify-content: center;
+        margin-right: 9rem;
+    }
+}

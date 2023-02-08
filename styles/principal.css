@@ -1,0 +1,149 @@
+body {
+    min-width: 360px;
+}
+
+.principal {
+    color: var(--preto);
+    font-family: var(--fonte-secundaria);
+    font-style: medium;
+    text-align: center;
+    background-image: url(../img/padraoClaro.png);
+}
+
+.pokemon {
+    padding: 1rem 0;
+}
+
+.valor_dolar, .valor_euro {
+    font-size: 1.2rem;
+}
+
+.pokemon_valor {
+    padding: .1rem;
+    font-size: 1rem;
+}
+
+.pokemon_img {
+    height: 14rem;
+    filter: drop-shadow(.6rem .6rem .6rem rgba(0, 0, 0, .6));
+    padding: .1rem;
+}
+
+.medidas {
+    display: flex;
+    font-family: var(--fonte-terciaria);
+    font-size: .6rem;
+    justify-content: center;
+    margin: .6rem 0;
+}
+
+.divisa {
+    margin: 0 1rem;
+}
+
+.pokemon_nome {
+    font-size: 1.8rem;
+    padding-bottom: .6rem;
+}
+
+.tipo_texto, .habilidade_texto, .atributo_texto {
+    font-size: 1.2rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.tipo {
+    background: var(--vermelho-degrade-caixas);
+    border: 2px solid var(--preto);
+    border-radius: 12px;
+    height: 5rem;
+    width: 20rem;
+    margin: 1rem auto;
+    padding: .5rem 0;
+}
+
+.pokemon_tipo {
+    height: 5rem;
+    border-radius: 50%;
+    margin: 0 .5rem;
+    transition: filter 1s;
+}
+
+/* Mudança de cor ao passar o mouse */
+.pokemon_tipo:hover {
+    filter: contrast(130%);
+}
+
+.habilidades {
+    font-family: var(--fonte-terciaria);
+}
+
+.habilidades_caixa {
+    background: var(--vermelho-degrade-caixas);
+    border: 2px solid var(--preto);
+    border-radius: 12px;
+    height: auto;
+    width: 20rem;
+    margin: 1rem auto;
+}
+
+.habilidades_global {
+    margin: 1rem;
+}
+
+.habilidade1, .habilidade2, .habilidade3 {
+    margin: 0 .5rem;
+}
+
+.habilidades_naturais {
+    display: flex;
+    justify-content: center;
+}
+
+.habilidade_oculta {
+    margin-top: .5rem;
+}
+
+.oculta {
+    font-size: .8rem;
+}
+
+.stats_caixa {
+    background: var(--vermelho-degrade-caixas);
+    border: 2px solid var(--preto);
+    border-radius: 12px;
+    height: auto;
+    margin: 1rem auto;
+    width: 20rem;
+    font: var(--fonte-secundaria);
+    font-size: 1rem;
+    padding: .5rem 0;
+}
+
+.stats_trio {
+    display: flex;
+    margin: .5rem;
+    justify-content: space-evenly;
+}
+
+.stats {
+    width: 20%;
+    text-align: start;
+}
+
+.stats_valor_hp, .stats_valor_atk, .stats_valor_def, .stats_valor_spatk, .stats_valor_spdef, .stats_valor_spd, .stats_valor_total {
+    width: 10%;
+    text-align: end;
+}
+
+/* Modo noturno */
+.dark .principal {
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    background-image: url(../img/padraoEscuro.png);
+
+}
+
+.dark .tipo, .dark .habilidades_caixa, .dark .stats_caixa {
+    border: 2px solid var(--branco);
+    background: var(--azul-degrade-rodape);
+}

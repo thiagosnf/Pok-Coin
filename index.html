@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&family=Nunito+Sans&family=Roboto+Condensed:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x.png">
+    <title>PokéCoin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="index.html"><img src="img/logopC.png" alt="PC" class="logo"></a>
+        <div class="menu">
+            <a href="index.html" class="menu_item_selecionado">Dólar</a>
+            <a href="euro.html" class="menu_item">Euro</a>
+        </div>
+        <!-- Botão de tema -->
+        <div class="muda_tema">
+            <input type="checkbox" class="checkbox" id="botao">
+            <label class="label" for="botao">
+                <img src="img/sun.png" alt="modo claro" class="sun">
+                <img src="img/moon.png" alt="modo escuro" class="moon">
+                <div class="circulo"></div>
+            </label>
+    </header>
+    <article class="principal">
+        <section class="pokemon">
+            <!-- Mensagem do valor -->
+            <h2 class="valor_dolar" class="valor_moeda"></h2>
+            <!-- No. -->
+            <h4 class="pokemon_valor"></h4>
+            <!-- Imagem do pokémon -->
+            <img id="pokemon_img" src="" alt="Pokémon" class="pokemon_img">
+            <!-- Altura e peso -->
+            <div class="medidas">
+            </div>
+            <!-- Nome do Pokémon -->
+            <h2 class="pokemon_nome"></h2>
+            <!-- Aqui ficam as imagens dos tipos -->
+            <div class="classificacao">
+                <h4 class="tipo_texto">Tipo</h4>
+                <div class="tipo">
+                    <!-- Aqui ficam as imagens dos tipos -->
+                </div>
+            </div>
+            <div class="habilidades">
+                <h3 class="habilidade_texto">Habilidade</h3>
+                <div class="habilidades_caixa">
+                    <div class="habilidades_global">
+                        <!-- Cria habilidades -->
+                    </div>
+                </div>
+            </div>
+            <!-- Atributos do pokémon -->
+            <div class="atributos">
+                <h4 class="atributo_texto">Atributos</h4>
+                <div class="stats_caixa">
+                    <div class="stats_trio">
+                        <h6 class="stats">HP</h6>
+                        <div class="stats_barra"> <span class="stats_hp"></span></div>
+                        <h6 class="stats_valor_hp"></h6>
+                    </div>
+                    <div class="stats_trio">
+                        <h6 class="stats">ATK</h6>
+                        <div class="stats_barra"> <span class="stats_atk"></span></div>
+                        <h6 class="stats_valor_atk"></h6>
+                    </div>
+                    <div class="stats_trio">
+                        <h6 class="stats">DEF</h6>
+                        <div class="stats_barra"> <span class="stats_def"></span></div>
+                        <h6 class="stats_valor_def"></h6>
+                    </div>
+                    <div class="stats_trio">
+                        <h6 class="stats">SP.ATK</h6>
+                        <div class="stats_barra"> <span class="stats_spatk"></span></div>
+                        <h6 class="stats_valor_spatk"></h6>
+                    </div>
+                    <div class="stats_trio">
+                        <h6 class="stats">SP.DEF</h6>
+                        <div class="stats_barra"> <span class="stats_spdef"></span></div>
+                        <h6 class="stats_valor_spdef"></h6>
+                    </div>
+                    <div class="stats_trio">
+                        <h6 class="stats">SPD</h6>
+                        <div class="stats_barra"> <span class="stats_spd"></span></div>
+                        <h6 class="stats_valor_spd"></h6>
+                    </div>
+                    <div class="stats_trio">
+                        <h6 class="stats">Total</h6>
+                        <div class="stats_barra"> <span class="stats_total"></span></div>
+                        <h6 class="stats_valor_total"></h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+</body>
+<footer class="rodape">
+    <a href="https://beacons.ai/thiagosnf"><img src="img/meu-logo.png" class="tn"
+            alt="Um logotipo representando as letras TN"></a>
+</footer>
+<script src="app/back.js"></script>
+<script src="app/dolar.js"></script>
+</body>

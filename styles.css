@@ -1,0 +1,27 @@
+@import url("styles/cabecalho.css");
+@import url("styles/rodape.css");
+@import url("styles/principal.css");
+@import url("styles/tipos.css");
+@import url("styles/barras.css");
+
+:root {
+    --branco: #fefefe;
+    --preto: #060606;
+    --laranja-escuro: #fe2c5a;
+    --laranja-claro: #f6513d;
+    --azul-claro: #2f6ef5;
+    --azul-escuro: #2c2386;
+    --bordaModoLight: #e79323;
+    --bordaModoDark: #5aa0cc;
+    --amarelo: #ffc800;
+    --laranja: #ffa600;
+    --vermelho-degrade: linear-gradient(0deg, rgba(246, 81, 61, 1) 0%, rgba(254, 44, 90, 1) 100%);
+    --vermelho-degrade-caixas: linear-gradient(0deg, rgba(255, 73, 81, 1) 0%, rgba(255, 96, 39, 1) 100%);
+    --vermelho-degrade-rodape: linear-gradient(0deg, rgba(254, 44, 90, 1) 0%, rgba(246, 81, 61, 1) 100%);
+    --azul-degrade: linear-gradient(0deg, rgba(47, 110, 245, 1) 0%, rgba(44, 35, 134, 1) 100%);
+    --azul-degrade-rodape: linear-gradient(0deg, rgba(44, 35, 134, 1) 0%, rgba(47, 110, 245, 1) 100%);
+    /* Fontes */
+    --fonte-principal: "Roboto Condensed";
+    --fonte-secundaria: "Hind Siliguri";
+    --fonte-terciaria: "Nunito Sans";
+}

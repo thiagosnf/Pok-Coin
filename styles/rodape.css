@@ -1,0 +1,18 @@
+.rodape {
+    background: var(--vermelho-degrade-rodape);
+    height: 6rem;
+    position: relative;
+}
+
+.tn {
+    height: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Modo noturno */
+.dark .rodape {
+    background: var(--azul-degrade-rodape);
+}
