@@ -1,3 +1,19 @@
+// Modo noturno
+const mudaBotao = document.querySelector("#botao");
+
+function aplicaTema() {
+  document.body.classList.toggle("dark");
+}
+
+// Carrega tema salvo
+function carregaTema() {
+  const modoNoturno = localStorage.getItem("dark");
+
+  if (modoNoturno) {
+    aplicaTema();
+  }
+}
+
 // Muda para modo noturno
 mudaBotao.addEventListener("click", function () {
   aplicaTema();
@@ -32,6 +48,8 @@ animaBotao.style.transition = "none";
 setTimeout(() => {
   animaBotao.style.transition = "transform .2s";
 }, 201);
+
+// Fim do modo noturno
 
 // Imagens
 const pegaImagemNoGit = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/"
@@ -69,19 +87,3 @@ function APIMoeda() {
   moeda = JSON.parse(dataMoeda);
 }
 APIMoeda();
-
-// Modo noturno
-const mudaBotao = document.querySelector("#botao");
-
-function aplicaTema() {
-  document.body.classList.toggle("dark");
-}
-
-// Carrega tema salvo
-function carregaTema() {
-  const modoNoturno = localStorage.getItem("dark");
-
-  if (modoNoturno) {
-    aplicaTema();
-  }
-}
