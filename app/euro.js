@@ -111,7 +111,7 @@ let total = Math.round((totalBase * 100) / 1500);
 // Escreve valor atual
 document.querySelector(
   ".valor_euro"
-).innerHTML = `€1 está valendo:  ${euroMoeda}`;
+).innerHTML = `€1 está valendo  ${euroMoeda}`;
 
 // Altera nome no site
 document.querySelector(".pokemon_nome").innerHTML = `${pokemonNome}`;
